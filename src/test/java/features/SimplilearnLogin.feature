@@ -1,8 +1,6 @@
-@Simplilearn
-
+@Simplileran
 Feature: This feature will validate the login scenarios for simplilearn.com
 
-  @Cucumber_Parameterized_Job
   Scenario: Validate the Login failure scenario
     Given I have launched the application
     And I click on the Login link
@@ -11,7 +9,6 @@ Feature: This feature will validate the login scenarios for simplilearn.com
     And I click on the login button
     Then I should get the error message as "The email or password you have entered is invalid."
 
-  @Cucumber_Parameterized_Job
   Scenario: Validate the Login failure scenario using parameters
     Given I have launched the application
     And I click on the Login link
@@ -20,7 +17,6 @@ Feature: This feature will validate the login scenarios for simplilearn.com
     And I click on the login button
     Then I should get the error message as "The email or password you have entered is invalid."
 
-  @Cucumber_Parameterized_Job
   Scenario Outline: Validate the Login failure scenario using scenario outline
     Given I have launched the application
     And I click on the Login link
